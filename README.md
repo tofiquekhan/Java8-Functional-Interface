@@ -32,3 +32,10 @@ System.out.println("m3 Method");
 }
 }
 
+In JDK8, @FunctionalInterface annotation is introduced to specify that the interface is Functional Interface.
+
+Inside FunctionalInterface we can take only one abstract method, if we take more than one abstract method then
+compiler raise an error : multiple non-overriding abstract method found
+
+
+
