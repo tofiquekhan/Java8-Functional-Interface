@@ -18,5 +18,17 @@ interface A{
   void m1();
 }
 
+Inside functional Interface in addition to Single Abstract Method(SAM) we write any number of default & static method.
 
+Ex 3: Compile Successfull
+@FunctionalInterface
+interface A{
+void m1();
+default void m2(){
+System.out.println("He")
+}
+static  void m3(){
+System.out.println("m3 Method");
+}
+}
 
